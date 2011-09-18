@@ -3,7 +3,6 @@ import os
 path = lambda *a: os.path.join(ROOT, *a)
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
-print ROOT
 INSTALLED_APPS = (
     'jingo.tests.jinja_app',
     'jingo.tests.django_app'
